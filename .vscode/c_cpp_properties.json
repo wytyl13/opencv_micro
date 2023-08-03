@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:\\development_app2\\opencv\\build\\install\\include",
+                "D:\\development_app2\\opencv\\source\\opencv_contrib\\modules",
+                "D:\\development_app2\\dlib-19.24\\"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "D:\\mingw64\\bin\\g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "windows-gcc-x86",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        },
+        {
+            "name": "OPENCV_MICRO",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:\\mingw64\\x86_64-w64-mingw32\\include",
+                "D:\\development_app2\\opencv\\build\\install\\include",
+                "D:\\development_app2\\opencv\\source\\opencv_contrib\\modules"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "D:\\mingw64\\bin\\g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
